@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 100%;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+   
+}
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 350%;
+    line-height: 80px;
+    letter-spacing: 8px;
+  
+    
+}
+h4{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: medium; 
+    line-height: 30px;
+  
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://firebasestorage.googleapis.com/v0/b/chatchaya-web-introduced.appspot.com/o/6940.jpg?alt=media&token=390c2553-1497-4399-b56f-c1d6f244c397) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.item{
+    padding: 0 auto;
+    text-align: center;
+}
+.bt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-top: 25px;
+
+}
+
+.topbar{
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    background-color:#181D31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+a{
+    color: white;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    background-color:#181D31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imgcon{
+    width: 100%;
+    height: 45%;
+}
+
+@media(min-width :1366 ){
+    .item{
+        width: 75% ;
+    }
+}
+
+@media(min-width :1536 ){
+    .item{
+        width: 70% ;
+    }
+}
+@media(min-width :1600 ){
+    .item{
+        width: 80% ;
+    }
+}
+
+
+@media(min-width :1440 ){
+    .item{
+        width: 75% ;
+    }
+}
+
+@media(min-width :768){
+    .item{
+        width: 50% ;
+    }
+}
+
+@media(min-width :360){
+    .item{
+        width: 20% ;
+    }
+    
+
+}
+
+@media(min-width :500){
+    .item{
+        width: 30% ;
+    }
+
+}
+
+
+
+
+
